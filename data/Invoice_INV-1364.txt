@@ -1,0 +1,13 @@
+Invoice INV-1364
+Company Name: ABC Corp
+Invoice Number: INV-1364
+Date: 2023-09-01
+Customer: Customer C
+Itemized List:
+1. Product P - 10 units @ 100 CAD/unit = 1000 CAD
+2. Product Q - 5 units @ 200 CAD/unit = 1000 CAD
+3. Service R - 2 hours @ 500 CAD/hour = 1000 CAD
+Subtotal: 3000 CAD
+Tax (5%): 150 CAD
+Total: 3150 CAD
+Discrepancy: Missing items (Product Q not delivered)

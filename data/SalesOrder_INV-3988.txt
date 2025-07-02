@@ -1,0 +1,11 @@
+Sales Order SO-3988
+Company Name: ABC Corp
+Sales Order Number: SO-3988
+Date: 2023-08-20
+Customer: Customer B
+Items Sold:
+1. Product A - 20 units @ 50 CAD/unit
+2. Product B - 10 units @ 100 CAD/unit
+3. Service C - 5 hours @ 200 CAD/hour
+Delivery Schedule: 2023-09-01
+Sales Terms: Net 30 days

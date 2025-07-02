@@ -1,0 +1,12 @@
+Purchase Order PO-3988
+Company Name: ABC Corp
+PO Number: PO-3988
+Date: 2023-08-25
+Buyer: Customer B
+Supplier: ABC Corp
+Requested Items:
+1. Product A - 20 units @ 50 CAD/unit
+2. Product B - 10 units @ 100 CAD/unit
+3. Service C - 5 hours @ 200 CAD/hour
+Delivery Date: 2023-09-01
+Terms and Conditions: Net 30 days

@@ -1,0 +1,23 @@
+Contract Terms CT-3988
+Contract ID: CT-3988
+Parties Involved: ABC Corp and Customer B
+Effective Date: 2023-08-01
+Scope of Work:
+- Supply of Product A and Product B
+- Provision of Service C
+Deliverables:
+- Product A: 20 units
+- Product B: 10 units
+- Service C: 5 hours
+Pricing:
+- Product A: 50 CAD/unit
+- Product B: 100 CAD/unit
+- Service C: 200 CAD/hour
+Timelines:
+- Delivery by 2023-09-01
+Legal Clauses:
+- Termination: 30 days notice
+- Liability: Limited to contract value
+Signatures:
+- ABC Corp: John Doe
+- Customer B: Jane Smith

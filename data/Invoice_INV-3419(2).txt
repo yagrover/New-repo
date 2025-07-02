@@ -1,0 +1,13 @@
+Invoice INV -3419  
+Company Name: ABC Corp Invoice 
+Number: INV -3419  
+PO Number: PO -3419  
+Date: 2023 -09-01 Customer: 
+Customer A Itemized List:  
+1. Product X - 10 units @ 100 CAD/unit = 1000 CAD  
+2. Product Y - 5 units @ 200 CAD/unit = 1000 CAD  
+3. Service Z - 2 hours @ 500 CAD/hour = 1000 CAD  
+4. Service T - 2 units @ 759 CAD/hour = 1518 CAD  
+Subtotal: 4518  CAD  
+Tax (5%): 226 CAD  
+Total: 4744  CAD  

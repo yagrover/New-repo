@@ -1,0 +1,23 @@
+Contract Terms CT-1364
+Contract ID: CT-1364
+Parties Involved: ABC Corp and Customer C
+Effective Date: 2023-08-01
+Scope of Work:
+- Supply of Product P and Product Q
+- Provision of Service R
+Deliverables:
+- Product P: 10 units
+- Product Q: 5 units
+- Service R: 2 hours
+Pricing:
+- Product P: 100 CAD/unit
+- Product Q: 200 CAD/unit
+- Service R: 500 CAD/hour
+Timelines:
+- Delivery by 2023-09-01
+Legal Clauses:
+- Termination: 30 days notice
+- Liability: Limited to contract value
+Signatures:
+- ABC Corp: John Doe
+- Customer C: Jane Smith

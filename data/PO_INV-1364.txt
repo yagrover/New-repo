@@ -1,0 +1,12 @@
+Purchase Order PO-1364
+Company Name: ABC Corp
+PO Number: PO-1364
+Date: 2023-08-25
+Buyer: Customer C
+Supplier: ABC Corp
+Requested Items:
+1. Product P - 10 units @ 100 CAD/unit
+2. Product Q - 5 units @ 200 CAD/unit
+3. Service R - 2 hours @ 500 CAD/hour
+Delivery Date: 2023-09-01
+Terms and Conditions: Net 30 days

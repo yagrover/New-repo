@@ -1,0 +1,23 @@
+Contract Terms CT-6834
+Contract ID: CT-6834
+Parties Involved: ABC Corp and Customer D
+Effective Date: 2023-08-01
+Scope of Work:
+- Supply of Product M and Product N
+- Provision of Service O
+Deliverables:
+- Product M: 15 units
+- Product N: 10 units
+- Service O: 3 hours
+Pricing:
+- Product M: 100 CAD/unit
+- Product N: 150 CAD/unit
+- Service O: 200 CAD/hour
+Timelines:
+- Delivery by 2023-09-01
+Legal Clauses:
+- Termination: 30 days notice
+- Liability: Limited to contract value
+Signatures:
+- ABC Corp: John Doe
+- Customer D: Jane Smith

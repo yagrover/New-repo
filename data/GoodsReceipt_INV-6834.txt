@@ -1,0 +1,13 @@
+Goods Receipt GR-6834
+Company Name: ABC Corp
+Receipt Number: GR-6834
+Date: 2023-09-01
+Supplier: ABC Corp
+Received Items:
+1. Product M - 15 units
+2. Product N - 10 units
+3. Service O - 3 hours
+Condition: Good
+Reference: PO-6834, INV-6834
+Received by: John Doe
+Remarks: None

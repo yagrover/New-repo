@@ -1,0 +1,12 @@
+Invoice INV-6834
+Company Name: ABC Corp
+Invoice Number: INV-6834
+Date: 2023-09-01
+Customer: Customer D
+Itemized List:
+1. Product M - 15 units @ 100 CAD/unit = 1500 CAD
+2. Product N - 10 units @ 150 CAD/unit = 1500 CAD
+3. Service O - 3 hours @ 200 CAD/hour = 600 CAD
+Subtotal: 3600 CAD
+Tax (5%): 180 CAD
+Total: 3780 CAD

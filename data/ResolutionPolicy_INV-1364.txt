@@ -1,0 +1,25 @@
+Resolution Policy
+Policy Title: Dispute Resolution Policy
+Version: 1.0
+Effective Date: 2023-01-01
+Types of Disputes Covered:
+- Pricing discrepancies
+- Delivery issues
+- Quality concerns
+Steps for Resolution:
+1. Submit a dispute form
+2. Initial review by customer service
+3. Escalation to management if unresolved
+4. Final resolution within 30 days
+Timeframes:
+- Initial review: 7 days
+- Escalation: 14 days
+- Final resolution: 30 days
+Documentation Required:
+- Invoice
+- PO
+- Goods Receipt
+- Contract Terms
+Contact for Dispute Resolution:
+- Email: disputes@abccorp.com
+- Phone: +1-800-123-4567

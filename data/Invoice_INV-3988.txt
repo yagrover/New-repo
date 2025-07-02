@@ -1,0 +1,12 @@
+Invoice INV-3988
+Company Name: ABC Corp
+Invoice Number: INV-3988
+Date: 2023-09-01
+Customer: Customer B
+Itemized List:
+1. Product A - 20 units @ 50 CAD/unit = 1000 CAD
+2. Product B - 10 units @ 100 CAD/unit = 1000 CAD
+3. Service C - 5 hours @ 200 CAD/hour = 1000 CAD
+Subtotal: 3000 CAD
+Tax (5%): 150 CAD
+Total: 3150 CAD

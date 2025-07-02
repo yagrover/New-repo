@@ -1,0 +1,12 @@
+Goods Receipt GR-1364
+Company Name: ABC Corp
+Receipt Number: GR-1364
+Date: 2023-09-01
+Supplier: ABC Corp
+Received Items:
+1. Product P - 10 units
+2. Service R - 2 hours
+Condition: Good
+Reference: PO-1364, INV-1364
+Received by: John Doe
+Remarks: Product Q not delivered

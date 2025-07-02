@@ -1,0 +1,12 @@
+Sales Order SO -6834  
+Company Name: ABC Corp  
+Sales Order Number: SO -6834  
+PO Number: PO -6834  
+Date: 2023 -08-20 
+Customer: Customer D  
+Items Sold:  
+1. Product M - 15 units @ 100 CAD/unit  
+2. Product N - 10 units @ 150 CAD/unit  
+3. Service O - 3 hours @ 200 CAD/hour  
+Delivery Schedule: 2023 -09-01 
+Sales Terms: Net 30 days  
