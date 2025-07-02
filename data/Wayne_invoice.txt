@@ -1,0 +1,53 @@
+ 
+ 
+  
+ Eccel Corp Ltd    Tax invoice   
+      
+ Lower Parel, Mumbai, India       
+       
+       
+         
+                  
+  Bill To              
+                  
+  Wayne Technologies  
+Ludhiana, Punjab , India        Invoice Date  31 Dec 2015    
+         Invoice  No 121412    
+         PO No.  12345    
+               
+                  
+         
+  ID Description  HSN 
+code Quantity  Rate Amount    
+  1 Lenovo ThinkPad X1 Carbon    1 ₹ 5,000.00  ₹ 5,000.00    
+  2 Lenovo Mouse    1 ₹ 4,000.00  ₹ 4,000.00    
+  3 HP Keyboard    2 ₹ 1,000.00  ₹ 2,000.00    
+     
+            
+     
+            
+     
+            
+  
+   Thank you for your business!  
+ 
+  Payment Details  
+ Account name:  Eccel Corp Ltd  
+ Account number:  9876543210  
+ Bank name : ABCD Bank  
+ IFSC code : ABCD123456789  
+ 
+ 
+  
+  
+  
+  Sub total ₹ 11,000.00    
+Discount   ₹ 0   
+Tax Rate  18%   
+Tax ₹ 1,980.00    
+Shipping   ₹ 0   
+Previous dues   ₹ 0   
+Total  ₹ 12,980.00    
+ 
+  
+  

@@ -1,0 +1,21 @@
+Your Company Logo  
+ 
+Purchase Order Form  
+Your Company Name:  Eccel Corp Ltd  PO No. : 6789  
+Company Address::  Lower Parel, Mumbai  Date:  30/05/2015  
+Billed to:  Shipped to:  
+Company Name:  Karl Urban Technologies  Company Name:  Karl Urban Technologies  
+Address:  Chennai, India  Address:  Chennai, India  
+Item No.  Details  Quantity  Unit Price  Total  
+1 Lenovo ThinkPad V2 Model  1 ₹ 10,000  ₹ 10,000.00  
+2 HP Mouse  3 ₹4,000  ₹ 12,000.00  
+3 Soundcore  headphones  5 ₹ 1,000  ₹ 5,000.00  
+ Unit     
+     
+     
+     
+Comments or Additional Instructions  Subtotal  ₹27,000  
+ Taxes  ₹3000 
+Discount  ₹0 
+Total  ₹ 30,000  
+ 
