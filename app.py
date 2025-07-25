@@ -26,7 +26,7 @@ if uploaded_file is not None:
 
     st.info("🧾 Extracting text using Textract...")
     try:
-        extracted_text = extract_text_from_textract(bucket_name, file_key, st.secrets["aws"])
+        extracted_text = extract_text_from_textract(bucket_name, file_key)
         st.success("✅ Text extraction done.")
     except Exception as e:
         st.error(f"❌ Textract failed: {e}")
