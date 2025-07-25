@@ -13,7 +13,15 @@ def upload_to_s3(file, bucket_name, key):
     )
 
     file_content = file.read()
-    s3.upload_fileobj(io.BytesIO(file_content), bucket_name, key)
+    file_buffer = io.BytesIO(file_content)
+
+    s3.upload_fileobj(
+        Fileobj=file_buffer,
+        Bucket=bucket_name,
+        Key=key,
+        ExtraArgs={"ContentType": file.type}
+    )
+
     time.sleep(2)  # Let S3 sync before Textract
     return f"s3://{bucket_name}/{key}"
 
@@ -46,7 +54,3 @@ def extract_text_from_textract(bucket, key):
         if block["BlockType"] == "LINE"
     ])
     return text
-
-
-
-
