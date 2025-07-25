@@ -1,12 +1,19 @@
+import streamlit as st
 import boto3
 import json
 from rag_utils import load_documents_from_folder, load_faiss_index, query_faiss
+
 
 # Claude 3 Haiku model ID
 MODEL_ID = "anthropic.claude-3-haiku-20240307-v1:0"
 
 # Connect to Bedrock
-bedrock = boto3.client("bedrock-runtime", region_name="us-east-1")
+bedrock = boto3.client(
+    "bedrock-runtime",
+    region_name="us-east-1",
+    aws_access_key_id=st.secrets["aws"]["AKIA22ZS3HTMFPUVAYFT"],
+    aws_secret_access_key=st.secrets["aws"]["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"]
+)
 
 def generate_dispute_reply(invoice_text, query_text=None):
     # Load FAISS index + documents
