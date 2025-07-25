@@ -18,7 +18,7 @@ if uploaded_file is not None:
 
     st.info("⏫ Uploading to S3...")
     try:
-        upload_to_s3(uploaded_file, bucket_name, file_key, st.secrets["aws"])
+        upload_to_s3(uploaded_file, bucket_name, file_key)
         st.success("✅ Uploaded successfully.")
     except Exception as e:
         st.error(f"❌ Upload failed: {e}")
