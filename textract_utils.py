@@ -1,18 +1,24 @@
 import boto3
 import time
 import io
+import streamlit as st
 
-def upload_to_s3(file, bucket_name, key, aws_creds):
+def upload_to_s3(file, bucket_name, key):
+    aws_creds = st.secrets["aws"]
     s3 = boto3.client(
         "s3",
         region_name="us-east-1",
         aws_access_key_id=aws_creds["aws_access_key_id"],
         aws_secret_access_key=aws_creds["aws_secret_access_key"]
     )
-    # 🔧 This was missing
-    s3.upload_fileobj(file, bucket_name, key)
 
-def extract_text_from_textract(bucket, key, aws_creds):
+    file_content = file.read()
+    s3.upload_fileobj(io.BytesIO(file_content), bucket_name, key)
+    time.sleep(2)  # Let S3 sync before Textract
+    return f"s3://{bucket_name}/{key}"
+
+def extract_text_from_textract(bucket, key):
+    aws_creds = st.secrets["aws"]
     textract = boto3.client(
         "textract",
         region_name="us-east-1",
@@ -20,19 +26,12 @@ def extract_text_from_textract(bucket, key, aws_creds):
         aws_secret_access_key=aws_creds["aws_secret_access_key"]
     )
 
-    # 🔧 This was missing: Start the Textract job
     response = textract.start_document_text_detection(
-        DocumentLocation={
-            'S3Object': {
-                'Bucket': bucket,
-                'Name': key
-            }
-        }
+        DocumentLocation={"S3Object": {"Bucket": bucket, "Name": key}}
     )
-
     job_id = response["JobId"]
 
-    # ✅ Polling for result
+    # Wait for job to complete
     while True:
         result = textract.get_document_text_detection(JobId=job_id)
         if result["JobStatus"] in ["SUCCEEDED", "FAILED"]:
@@ -47,6 +46,7 @@ def extract_text_from_textract(bucket, key, aws_creds):
         if block["BlockType"] == "LINE"
     ])
     return text
+
 
 
 
