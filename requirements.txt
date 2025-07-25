@@ -1,0 +1,9 @@
+streamlit
+sentence-transformers
+faiss-cpu
+boto3
+pdfplumber
+python-docx
+PyPDF2
+requests
+python-dotenv
