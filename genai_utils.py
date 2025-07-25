@@ -11,8 +11,8 @@ MODEL_ID = "anthropic.claude-3-haiku-20240307-v1:0"
 bedrock = boto3.client(
     "bedrock-runtime",
     region_name="us-east-1",
-    aws_access_key_id=st.secrets["aws"]["AKIA22ZS3HTMFPUVAYFT"],
-    aws_secret_access_key=st.secrets["aws"]["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"]
+    aws_access_key = st.secrets["aws"]["aws_access_key_id"]
+    aws_secret_key = st.secrets["aws"]["aws_secret_access_key"]
 )
 
 def generate_dispute_reply(invoice_text, query_text=None):
