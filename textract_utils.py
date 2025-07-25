@@ -6,16 +6,16 @@ def upload_to_s3(file, bucket_name, key, aws_creds):
     s3 = boto3.client(
         "s3",
         region_name="us-east-1",
-        aws_access_key_id=aws_creds["AKIA22ZS3HTMFPUVAYFT"],
-        aws_secret_access_key=aws_creds["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"]
+        aws_access_key_id=aws_creds["aws_access_key_id"],
+        aws_secret_access_key=aws_creds["aws_secret_access_key"]
     )
 
 def extract_text_from_textract(bucket, key, aws_creds):
     textract = boto3.client(
         "textract",
         region_name="us-east-1",
-        aws_access_key_id=aws_creds["AKIA22ZS3HTMFPUVAYFT"],
-        aws_secret_access_key=aws_creds["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"]
+        aws_access_key_id=aws_creds["aws_access_key_id"],
+        aws_secret_access_key=aws_creds["aws_secret_access_key"]
     )
 
     job_id = response["JobId"]
